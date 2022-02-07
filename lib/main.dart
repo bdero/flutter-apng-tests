@@ -40,7 +40,13 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisSpacing: 10,
           crossAxisSpacing: 10,
           children: <Widget>[
-            for (var i = 0; i <= 38; i++) Image.asset('images/${i.toString().padLeft(3, '0')}.png'),
+            for (var i = 0; i <= 38; i++)
+              Image.asset('images/${i.toString().padLeft(3, '0')}.png'),
+            Image.asset('images/clock.png'),
+            Image.asset('images/APNG-Icos4D.png'),
+            Image.asset('images/pyani.png'),
+            Image.asset('images/APNG-cube.png'),
+            Image.asset('images/test.webp'),
           ],
         ),
       ),
